@@ -1,0 +1,59 @@
+#step2_data table {
+   margin: auto;
+}
+
+#step2_data table {
+   margin-top: 45px;
+}
+
+#step2_data table th {
+   color: white;
+   font-family: 'Slabo 27px', serif;
+   font-weight: normal;
+   font-size:20px;
+   text-align: right;
+   padding-right: 25px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+}
+
+#step2_data table td {
+   color: white;
+   text-align: left;
+   width: 300px;
+}
+#step2_data textarea {
+   width: 100%;
+   height: 100px;
+}
+#step2_data input, select {
+   width: 100%;
+   height: 35px;
+   border-radius: 15px;
+   padding-left: 20px;
+}
+
+#submitButton {
+   font-size: 18px;
+   
+   background-color: white;
+   border-color: white;
+   font-weight: bold;
+   color: darkred;
+}
+
+#submitButton:hover {
+   background: darkred;
+   border-color: darkred;
+   color: white;
+   -moz-transition: all 300ms ease;
+   -ms-transition: all 300ms ease;
+   -o-transition: all 300ms ease;
+   -webkit-transition: all 300ms ease;
+   transition: all 300ms ease;
+   }
+
+#datesText input {
+   font-size: 27px;
+   padding: 0px;
+}

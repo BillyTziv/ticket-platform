@@ -1,0 +1,36 @@
+#view {
+	height: 100%o;
+	width: 1000px;
+	padding-top: 25px;
+	border-radius: 10px;
+	margin: 0px auto 100px auto;
+}
+
+#view_table table {
+	color: white;
+}
+
+#view_table table {
+	border-collapse: collapse;
+}
+
+#view_table table th {
+	color: white;
+	font-weight: normal;
+	background-color: #0b729e;
+	border-radius: 0px;
+	padding: 10px 15px 10px 15px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#view_table table td {
+	font-weight: normal;
+	border-radius: 0px;
+	font-size: 13px;
+	text-align: center;
+	padding-top:3px;
+	padding-bottom:3px;
+	color: #1c1c1c;
+	font-family: 'Arial', serif;
+}
