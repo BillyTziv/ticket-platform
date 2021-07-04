@@ -1,0 +1,60 @@
+:root {
+    --primary: #5264AE;
+    --primary-hover: rgba(82, 100, 174, 0.9);
+    --primary-light: rgba(82, 100, 174, 0.1);
+    --green: #21A0A0;
+    --orange: #F7B32B;
+    --red: #A4243B;
+    --red-hover: rgba(164, 36, 59, 0.9);
+    --white: #F0F0F0;
+}
+  
+/* Position the top-down elements in the datatables */
+.dtSearchFilter { float: left; }
+.dtPagination { float: left; }
+.dtInformation { float: right; }
+.dtLength { float: right; }
+.dtActionButtons { float: right; }
+
+/* Customize datatable search filter */
+.dtSearchFilter input {
+    border-radius: 50px !important;
+}
+
+.dtSearchFilter label, .dtLength label {
+    margin-bottom: 0px !important;
+}
+
+.dtSearchFilter input, .dtLength select {
+    height: 38px;
+    margin-bottom: 5px;
+}
+
+.dtSearchFilter input:focus, .dtSearchFilter input:hover {
+    border: solid 1px var(--primary-hover);
+    box-shadow: 0px 0px 7px 1px var(--white);
+}
+
+.dtLength select {
+    margin-left: 15px;
+}
+
+/* Customize the datatable pagination button */
+.dtPagination span .paginate_button {			
+    border-radius: 50px !important;
+    color: var(--white) !important;
+}
+
+/* Customize the datatable headers (show text in one line) */
+table.dataTable thead th {
+    white-space: nowrap
+}
+
+table.dataTable tbody tr.selected {
+    color: var(--primary);
+    background-color: rgba(82, 100, 174, 0.2);
+}
+
+.dtActionButtons button:hover, .dtActionButtons button:focus {
+    background-color: var(--primary-light);
+}

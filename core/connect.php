@@ -4,7 +4,7 @@
 	$servername = "localhost";
 	$username = "root";
 	$password = "";
-	$dbname = "helpdesk_test";
+	$dbname = "helpdesk";
 
 	// Trying to connect to the database
 	//header('Content-Type:text/html; charset=UTF-8');

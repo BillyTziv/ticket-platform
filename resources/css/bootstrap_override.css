@@ -1,0 +1,19 @@
+.btn-primary {
+    background-color: var(--primary) !important;
+    color: var(--white) !important;
+    border: none;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    background-color:var(--primary-hover) !important;
+}
+
+.btn-danger {
+    background-color: var(--red) !important;
+    color: var(--white) !important;
+    border: none;
+}
+
+.btn-danger:hover, .btn-danger:focus {
+    background-color: var(--red-hover) !important;
+}
